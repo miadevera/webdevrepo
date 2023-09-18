@@ -31,6 +31,6 @@ efficient way of working on a project.
    high-fidelity wireframes who need to see the concept as realistic as possible and low-fidelity for those
    who need to know the simple elements and functions
 
-conclusion
+- conclusion
   always know your audience and that should take you on the right track of how to make the appropriate wireframe
   efficiently and effectively
