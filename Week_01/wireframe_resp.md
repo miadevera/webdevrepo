@@ -1,4 +1,4 @@
-# wireframe response#
+#wireframe response#
 
 there are five things to consider white wireframing... the UX experience is much more than problem solving 
 but it relies on different teams and their ability to work together.the basics, wireframing, can be the most
