@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pumpkim Pancakes Recipe</title>
+  </head>
 
+  <body>
+    <nav>
+      <ul class="nav_bar">
+        <li class="logo">Mama Mia's</li>
+        <li class="nav_item">Home</li>
+        <li class="nav_item">About Mia</li>
+        <li class="nav_item">Recipes</li>
+      </ul>
+    <nav>
+
+    <header>
+      <h1 class="headers">Mia's Pumpkin Pancakes</h1>
+    </header>
+
+    <aside>
+      <p class="description">
+        This recipe is good for all times of the year but it is just timely that it is finally fall!
+        <br>
+        You can either use canned pumpkin or freshly purreed pumpkin, up to you! 
+        <br>
+        Can I freeze this recipe? Yes you can... and up to 2 years
+      </p>
+    </aside>
+
+  <main class="flex_container_whole">
+    <section class="flex_container_top">
+      <figure class="pumpkin">
+        <img src="images/pumpkin.jpg" alt="Finished Photo of Pumpkin Pancakes" class="pumpkin">
+      </figure>
+
+      <article class="ingredients">
+        <h2>Ingredients!</h2>
+        <ul>
+          <li>1 1/2 cups milk</li>
+          <li>1 cup pumpkin puree</li>
+          <li>1 large egg</li>
+          <li>2 tablespoons vegetable oil</li>
+          <li>2 tablespoons vinegar</li>
+          <li>2 cups all-purpose flour</li>
+          <li><3 tablepoons brown sugar/li>
+          <li>2 teaspoons baking powder</li>
+          <li><1 teaspoon baking soda/li>
+          <li>1 teasoon allspice</li>
+          <li>1 teaspoon ground cinnamon</li>
+          <li>1/2 teaspoon salt</li>
+          <li>cooking spray</li>
+        </ul>
+      </article>
+
+    </section>
+    <br>
+    <section class="flex_container_bottom">
+      <article classs="instrctions">
+        <h2>Instructions!</h2>
+        <ol class="instructions">
+          <li>Gather all ingredients</li>
+          <li>Stir milk, pumpkin, egg. oil, and vinegar together in a large bowl until well combined</li>
+          <li></li>
+
+3. Whisk flour, brown sugar, baking powder, baking soda, allspice, cinnamon, ginger, and salt together in a separate bowl. Add to pumpkin mixture; whisk just until combined
+4. Spray a griddle or frying pan with cooking spray; heat over medium-high heat
+5. Pour 3 to 4 tablespoons batter for each pancake onto the hot griddle and flatten batter slightly with a spoon
+6. Cook until small bubbles appear, about 2 minutes
+7. Flip and cook until golden brown, about 2 more minutes. Repeat with remaining batter
+8. Serve hot and enjoy!
+
+    <h1>HTML Forms</h1>
+  </body>
+</html>
