@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@800&display=swap');
+
+.no-scroll {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-style: italic;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-y: auto;
+    margin-left: 200px;
+    font-style: italic;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    padding: 20px;
+    background-color: lightgrey;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a:link, 
+nav a:visited {
+    text-decoration: none; 
+    color: black; 
+    transition: color 0.3s ease-in-out;  
+}
+
+nav a:hover,
+nav a:active {
+    color: grey; 
+}
+
+.nav-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: auto;
+}
+
+.nav-header h1 {
+    position: relative;
+    padding-left: 15px;
+    top: 60px; /* Adjust this value to your preference */
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-list a {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+    
+}
+
+.nav-list li {
+    margin: 20px 0;
+    
+}
+
+.nav-list li a:focus {
+    outline: 1px solid #333;
+}
+
+.social-media {
+    margin-bottom: 30px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.collages-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+
+}
+
+.content-row img {
+    width: 40%; 
+    height: auto;
+}
+
+p .year {
+    color: darkred;
+}
+
+
+.content-row p {
+    
+    width: 40%;
+    padding-right: 60px; 
+}
+
+.about-content {
+    margin-left: 200px;
+    width: calc(100% - 200px); 
+}
+
+.about-content img {
+    display: block;
+    max-width: 30%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.about-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-text {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .scroll.no-scroll {
+        width: 90%;
+    }
+  }
+  
+  /* Smaller tablets and large phones */
+  @media (max-width: 600px) {
+    .scroll .no-scroll .collages-main-content .content-row {
+        width: 95%;
+        order: -1;
+    }
+  }
+  
+  /* Small phones */
+  @media (max-width: 400px) {
+    .scroll.no-scroll {
+        width: 100%;
+    }
+  }
