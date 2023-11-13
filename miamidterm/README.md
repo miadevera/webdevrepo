@@ -15,6 +15,10 @@ bootstrap carousel
 
 https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
+animation
+
+https://gsap.com/
+
 art blog inspo
 
 https://hifructose.com/
