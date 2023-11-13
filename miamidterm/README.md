@@ -13,4 +13,5 @@ https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
 art blog inspo
 https://hifructose.com/
+
 https://www.booooooom.com/
