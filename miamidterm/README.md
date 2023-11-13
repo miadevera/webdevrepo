@@ -5,6 +5,7 @@ still following my midterm for an art portfolio but i want to make it a little m
 - hover over collection of photos to show carousel slides using bootstrap
 - embed my written resume and my etsy shop... access both without leaving site
 - smoother transition between pages
+- fade in and out when scrolling
 
 reference for general css transitions
 
